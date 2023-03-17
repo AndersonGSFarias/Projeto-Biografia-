@@ -1,0 +1,169 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.container{
+    border: black solid 2px;
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 45px;
+}
+
+/* cabecalho*/
+
+.cabeçalho{
+    text-align: center;
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-style: italic;
+}
+
+/*imagem destaque*/
+
+.imagem-destaque{
+    display: flex;
+    justify-content: center;
+}
+
+.img-ator{
+    border: solid black 2px;
+    border-radius: 25px;
+}
+
+.txt-img-ator{
+    font-style: italic;
+    font-size: 12pt;
+}
+
+/* biografia*/
+
+.container-titulo-bio{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+/* citação */
+
+.citacao-txt{
+    font-size: 13pt;
+    font-style: italic;
+    background-color: gray;
+    padding: 20px 0px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+/* curiosidades */
+
+.curiosidade-container{
+    border-top: 1px black solid;
+    padding: 25px 0;
+	margin: 25px 0;
+    border-bottom: 1px black solid;
+
+
+}
+.curiosidades-list{
+    padding: 5px;
+}
+
+/* filmes */
+
+.container-img-filmes{
+    display: inline-block;
+}
+
+.filmes-ator{
+    padding-top: 15px;
+    
+}
+
+/* donnie darko*/
+
+.donniedarko{
+    padding: 0px 30px 30px 30px;
+    
+}
+
+.img-donnie{   
+    overflow: auto;
+    border: 2px solid black;
+    float: left;
+    margin-right: 10px;
+    width: 350px;
+    margin-top: 25px;
+}
+
+/* abutre*/
+
+.abutre{
+    padding: 50px 0px 50px 30px;
+    margin-top: 25px;
+}
+
+.img-abutre{    
+    border: 2px solid black;
+    overflow: auto;
+    float: left;
+    margin-right: 10px;
+    width: 350px;
+    margin-top: 25px;
+}
+
+/* homem aranha*/
+
+.misterio{
+    padding: 50px 0px 50px 30px;
+    margin-top: 25px;
+}
+
+.img-homemaranha{
+    border: 2px solid black;
+    overflow: auto;
+    float: left;
+    margin-right: 10px;
+    width: 350px;
+    margin-top: 25px;
+}
+
+.titulo-filmes{
+    border-bottom: black solid 1px;
+}
+
+.sinopse{
+    margin-top: 0;
+    padding: 50px 0 0 400px;
+}
+
+/* final referencia */
+
+.ref-final{
+    border-top: 1px solid black;
+    margin-left: 25px;
+    margin-top: 50px;
+    padding: 50px 0px 50 30px;
+}
+
+/* rodapé */
+
+.rodape{
+    padding-top: 80px;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
